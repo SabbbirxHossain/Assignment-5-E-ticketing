@@ -1,48 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bus Ticketing Website.</title>
-  <!-- Css link -->
-  <link rel="stylesheet" href="style.css">
-  <!-- Daisy UI link -->
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bus Ticketing Website.</title>
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Daisy UI link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
 
-<body>
-<!-- NavBar -->
-  <nav class="container m-5">
-    <div class="flex justify-between">
-      <div>
-        <h1 class="text-3xl font-bold text-white">SR-Ticket</h1>
-      </div>
-      <button class="btn text-green-500 bg-green-100 rounded-lg">
-        Bus
-        <img src="images/bus-icon.png" alt="">
-      </button>
-    </div>
-  </nav>
-
-  <!-- banner section -->
-  <section class="container m-5 ">
-    <div class="hero min-h-screen bg-[url('/images/banner.png')]">
-      <div class="hero-content text-center">
-        <div class="">
-          <h1 class="text-5xl text-white font-bold">End-to-End Travel with <br> <span class="text-green-500">SR Paribahan</span></h1>
-          <p class=" text-center text-white py-6 px-4 ">SR Travels is one of the busiest bus service in Bangladesh. It has luxury Air conditioned and Non air conditioned bus services to all the district of the country.</p>
-          <button class="btn text-white font-semibold bg-[#00D160] border-0">Buy Tickets</button>
+  <body>
+    <!-- NavBar -->
+    <nav>
+      <div class="container mx-auto my-5">
+        <div class="flex justify-between">
+          <div>
+            <h1 class="text-3xl font-bold text-white">SR-Ticket</h1>
+          </div>
+          <button class="btn text-green-500 bg-green-100 rounded-lg">
+            Bus
+            <img src="images/bus-icon.png" alt="" />
+          </button>
         </div>
       </div>
+    </nav>
+
+    <!-- banner section -->
+    <section class="container mx-auto">
+      <div class="hero min-h-screen bg-[url('/images/banner.png')] rounded-2xl">
+        <div class="hero-content text-center">
+          <div class="">
+            <h1 class="text-5xl text-white font-bold">
+              End-to-End Travel with <br />
+              <span class="text-green-500">SR Paribahan</span>
+            </h1>
+            <p class="text-center text-white py-6 px-4">
+              SR Travels is one of the busiest bus service in Bangladesh. It has
+              luxury Air conditioned and Non air conditioned bus services to all
+              the district of the country.
+            </p>
+            <button class="btn text-white font-semibold bg-[#00D160] border-0">
+              Buy Tickets
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section class="container mx-auto my-10">
+      <h1 class="text-5xl text-center text-black font-bold my-8">
+        Best offers for you
+      </h1>
+      <div class="flex justify-between mx-auto gap-5">
+        <div class="flex">
+          <div class="card w-80 bg-[#FFBF0F] text-primary-content">
+            <div class="card-body">
+              <h2 class="card-title text-4xl font-extrabold">15% OFF</h2>
+              <div class="">
+                <p class="text-xl font-bold">on your next purchase</p>
+                <p>use by January 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="card w-60 bg-[#FFBF0F] text-primary-content">
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-extrabold">
+                NEW<sub class="text-3xl font-bold">15</sub>
+              </h2>
+              <div class="">
+                <p class="text-xl font-semibold">Coupon Code</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex">
+          <div class="card w-80 bg-[#F78C9C] text-primary-content">
+            <div class="card-body">
+              <h2 class="card-title text-4xl font-extrabold">20% OFF</h2>
+              <div class="">
+                <p class="text-xl font-bold">on your next purchase</p>
+                <p>use by January 2024</p>
+              </div>
+            </div>
+          </div>
+          <div class="card w-60 bg-[#F78C9C] text-primary-content">
+            <div class="card-body">
+              <h2 class="card-title text-3xl font-extrabold">Couple 20</h2>
+              <div class="">
+                <p class="text-xl font-semibold">Coupon Code</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- button div -->
+      <div class="text-center my-20">
+        <button class="btn btn-outline bg-white text-[#1DD100] text-xl">See All Offers</button>
+      </div>
+    </section>
+
+
+    <div class="text-center">
+      <h1 class="text-5xl font-bold">SR. Paribahan</h1>
+      <p class="text-xl font-medium my-5">SR Travels is one of the busiest bus service in Bangladesh. It has
+        luxury Air conditioned and Non air conditioned bus services to all
+        the district of the country.</p>
     </div>
-  </section>
-
-  <!-- Offer Section -->
 
 
 
+    <section class="container mx-auto my-10">
+      <div class="flex justify-between">
+        <div class="flex flex-1 mr-10  justify-between">
+          <div class="flex flex-1 gap-5">
+            <img class="" src="images/bus-logo.png" alt="">
+            <div class="flex flex-col justify-center justify-items-center">
+              <h1 class="text-4xl">SR. Paribahan</h1>
+            <p>Coach-0987dC | AC_Buisness</p>
+            </div>
+          </div>
+          <div class="">
+            <button class="btn text-green-500 bg-green-100 rounded-lg">
+              <img src="images/seat-green.png" alt="" />
+              40 Seats Lelf
+            </button>
+
+            <div class="overflow-x-auto">
+              <table class="table">
+                <tbody>
+                  <!-- row 1 -->
+                  <tr>
+                    <td>Route</td>
+                    <td>Dhaka-Sylet</td>
+                  </tr>
+                  <!-- row 2 -->
+                  <tr>
+                    <td>Departure Time</td>
+                    <td>11.00 AM</td>
+                  </tr>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
 
 
-</body>
+          </div>
+          <!-- end -->
+        </div>
+    
+        <div>
+          <img src="images/fare.png" alt="">
+          <p class="text-3xl font-bold text-black">550 Taka</p>
+          <p class="text-xl  font-semibold">Per Seat</p>
+        </div>
+      </div>
+    </section>
+
+
+    
+  </body>
 </html>
